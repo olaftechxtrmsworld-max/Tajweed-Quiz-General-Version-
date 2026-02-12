@@ -53,7 +53,7 @@ h2{
     margin-top: 30px;
     padding: 0 20px;
     line-height: 1.6;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #startbtn{
@@ -249,7 +249,7 @@ h2{
   }
 
   h2{
-    font-size: 18px;
+    font-size: 20px;
   }
 
   #question {
@@ -273,6 +273,10 @@ h2{
     flex-direction: row;
     gap: 8px;
     font-size: 0.95rem;
+  }
+
+  #foot{
+  font-size: 10px;
   }
   
   #questcontainer {
@@ -310,7 +314,7 @@ h2{
 }
 
 #foot{
-  font-size: 15px;
+  font-size: 10px;
 }
 
 }
