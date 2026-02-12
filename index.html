@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- SEO -->
+    <meta name="description" content="Answer interactive tajweed questions, get instant feedback, and see your final score. Perfect for students and quiz lovers!">
+    <meta name="keywords" content="Tajweed, Quiz, Interactive, JavaScript Game, Play Online, Education">
+    <meta name="author" content="Dev. Ola">
+
+    <!-- Social Media / Open Graph -->
+    <meta property="og:title" content="Tajweed Quiz – Test Your Brainpower 🧠🧬">
+    <meta property="og:description" content="Answer interactive tajweed questions, get instant feedback, and see your final score. Perfect for students and quiz lovers!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content=""cl>
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tajweed Quiz – Test Your Brainpower 🧠🧬">
+    <meta name="twitter:description" content="Answer interactive tajweed questions, get instant feedback, and see your final score. Perfect for students and quiz lovers!">
+    <meta name="twitter:image" content="">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Source+Serif+4:wght@400;600&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <title>Quiz Game</title>
+</head>
+
+<body>
+    <div id="questcontainer">
+        <div id="welcome">
+            <h1 class="header">Marhaban!</h1>
+            <h2 id="subheader" class="fade-in">"Test your understanding of Tajwīd rules and improve your Qur’an recitation step by step.
+                Each question is meant to guide you, not rush you.
+                Learn, reflect, and grow in confidence."<br />
+
+                Click start quiz when you’re ready.
+            </h2>
+            <button id="startbtn">Start Quiz</button>
+        </div>
+
+        <div class="container hide">
+            <h1 class="header">Tajweed Questions</h1>
+            <p id="question">Whos the first Autor of tajweed</p>
+
+            <div id="anscont">
+
+            </div>
+            <button id="nextbtn" class="hide">Next Question</button>
+            <button id="view">View Result</button>
+            <div id="ft">
+                <span id="score"></span>
+                <span id="progress"></span>
+            </div>
+        </div>
+
+
+
+        <div id="endscreen" class="hide">
+            <div id="ptcontainer">
+                <h1 class="header">Maashallah, Quiz Completed!</h1>
+                <p id="scr"></p>
+                <p id="percentage"></p>
+                <p id="result"></p>
+                <div id="lastbtncont">
+                    <button id="restart" class="btn">Restart Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p id="foot">&copy; Dev. Ola (Ibnul-Arobiyy, Abu JUnaid)</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
