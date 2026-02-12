@@ -53,6 +53,7 @@ h2{
     margin-top: 30px;
     padding: 0 20px;
     line-height: 1.6;
+    font-size: 20px;
 }
 
 #startbtn{
@@ -247,6 +248,10 @@ h2{
     padding: 12px;
   }
 
+  h2{
+    font-size: 15px;
+  }
+
   #question {
     font-size: 17px;
   }
@@ -298,6 +303,10 @@ h2{
   
   #questcontainer {
   width: 90%;
+}
+
+h2{
+    font-size: 15px;
 }
 
 }
